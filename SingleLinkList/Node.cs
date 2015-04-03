@@ -38,6 +38,7 @@ namespace SingleLinkList
             data = dataVal;
             next = null;
         }
+        //空节点
         public Node()
         {
             data = default(T);
