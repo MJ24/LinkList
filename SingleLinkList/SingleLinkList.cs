@@ -78,6 +78,7 @@ namespace SingleLinkList
                 while (p.Next != null && realIndex < index)
                 {
                     p = p.Next;
+                    realIndex++;
                 }
                 if (realIndex == index)
                 {
